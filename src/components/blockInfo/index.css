@@ -1,0 +1,76 @@
+.blockInfo {
+    display: flex;
+    flex-direction: column;
+    width: calc(100%-40px);
+    padding: 10px 10px;
+    margin: 10px 20px;
+    border: 1px solid  rgb(198, 197, 202);
+}
+
+.blockInfo .brief .logo {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+    border-radius: 10px;
+    display: flex;
+    background: linear-gradient(21deg, rgba(255, 188, 136, 0.8), rgba(255, 188, 136, 0.2) 10.71%), linear-gradient(142.4deg, rgba(255, 152, 150, 0.8), rgba(255, 255, 255, 0) 70.71%), linear-gradient(356deg, rgba(255, 99, 122, 0.8), rgba(255, 176, 128, 0.2) 70.71%), linear-gradient(37deg, rgba(255, 99, 122, 0.8), rgba(255, 152, 150, 0.2) 70.71%);
+    position: relative;
+
+}
+
+.blockInfo .brief .logo .icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    left: 75px;
+}
+
+.blockInfo .brief .title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.blockInfo .header {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.blockInfo .info {
+    display: flex;
+    font-size: 14px;
+    flex-wrap: wrap;
+}
+
+.blockInfo .info .list {
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    /* border:1px solid black; */
+}
+
+.blockInfo .info .list div {
+        /* border:1px solid green; */
+        display: flex;
+        justify-content:left;
+        margin:2px;
+}
+.blockInfo .info .list div span{
+    display: inline-block;
+    /* border:1px solid red; */
+}
+.blockInfo .info .list div span:nth-child(1){
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+    /* font-weight: bold; */
+}
+.blockInfo .info .list div span:nth-child(2){
+    color:rgb(153, 153, 153);
+}
+
+

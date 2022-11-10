@@ -1,0 +1,100 @@
+.txBlock {
+  border: 1px solid #c7d1cb;
+  border-radius: 5px;
+  margin: 10px 20px;
+  display: flex;
+  padding:5px;
+  justify-content: space-between;
+}
+
+
+
+.txBlock .left{
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.txBlock .left .top{
+  display: flex;
+}
+
+.txBlock .left .top .divider {
+  display: inline-block;
+  width: 10px;
+}
+
+
+.txBlock .left .top span:nth-child(3) {
+  color:rgb(153, 153, 153);
+}
+
+.txBlock .left .top span:nth-child(3) span {
+  color:rgb(255, 161, 51)
+}
+
+.txBlock .left .bottom{
+  display: flex;
+  color:rgb(153, 153, 153);
+  margin-top: 2px;
+}
+
+.txBlock .right {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.txBlock .right .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.txBlock .right .info .top{
+  font-size: 14px;
+}
+
+.txBlock .right .info .top span:nth-child(2){
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+} 
+
+.txBlock .right .info .bottom {
+  display: flex;
+  font-size: 12px;
+  align-self: flex-end;
+}
+
+.txBlock .right .info .bottom  span {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+.txBlock .right .info .bottom span:nth-child(1){
+  color: lightcoral;
+}
+
+.txBlock .right .info .bottom span:nth-child(3){
+  color: rgb(153, 153, 153);
+}
+
+.arrowIcon {
+  padding:  10px;
+  cursor: pointer;
+    transition: ease 0.3s;
+}
+.selected {
+  transform: rotate(180deg);
+
+}
+
+.hideDetail {
+  height: 0px;
+  transform: scale(0);
+      transition: ease 0.2s;
+}
+
+.showContent {
+    height: auto;
+  transform: scale(1);
+
+}

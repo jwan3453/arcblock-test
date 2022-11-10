@@ -111,15 +111,15 @@ test('abbreviate number 2', () => {
     expect(abbreviateNumber(1234)).toBe('1.2k');
 });
 
-test('abbreviate number 1', () => {
+test('abbreviate number 3', () => {
     expect(abbreviateNumber(12345)).toBe('12.3k');
 });
 
-test('abbreviate number 1', () => {
+test('abbreviate number 4', () => {
     expect(abbreviateNumber(1233)).toBe('1.2k');
 });
 
-test('abbreviate number 1', () => {
+test('abbreviate number 5', () => {
     expect(abbreviateNumber(1233564)).toBe('1.2M');
 });
 
@@ -137,7 +137,7 @@ test('nonce should be on the screen', () => {
     expect(nonce).toBeInTheDocument();
 });
 
-test('nonce should be on the screen', () => {
+test('bits should be on the screen', () => {
 
     render(<BlockInfo blockData={mockData1} />);
     const bits = screen.getByText('386,863,986');
